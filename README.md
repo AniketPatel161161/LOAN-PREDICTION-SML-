@@ -35,8 +35,6 @@ Each row represents a loan applicant. Key columns include:
 | Employer_Category | Category of employer |
 | Loan_Approved | Target — 1 = Approved, 0 = Rejected |
 
-> ⚠️ Note: the source CSV (`loan_approval_data.csv`) is not included in this repository. Place it in the project root before running the notebook.
-
 ## 🔄 Project Workflow
 
 1. 🧹 **Data Cleaning & Preprocessing** — missing numerical values imputed with the column mean; missing categorical values imputed with the mode.
